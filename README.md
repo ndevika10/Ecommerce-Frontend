@@ -43,21 +43,25 @@ It is built using **React**, **Vite**, and **Tailwind CSS**, featuring both cust
 
 ## 📂 Project Structure
 src/
- ├── Admin/                # Admin dashboard pages and components
- │   └── components/
- ├── Data/                 # Static product data (JSON & JS)
- ├── Routers/              # Routing configuration for Admin & Customer
- ├── State/                # Redux actions, reducers, store
- ├── App.jsx               # Main application component
- ├── main.jsx              # React DOM entry point
- └── index.css             # Global styles
+├── Admin/ # Admin dashboard pages and components
+│ └── components/ # Modular dashboard widgets (tables, forms, etc.)
+├── Data/ # Static product data (JSON & JS)
+├── Routers/ # Routing configuration for Admin & Customer
+├── State/ # Redux actions, reducers, store
+├── App.jsx # Main application component
+├── main.jsx # React DOM entry point
+└── index.css # Global styles
 
-⚙️ Installation & Setup
 
-Clone the repository:
+---
 
-git clone https://github.com/your-username/Ecommerce-Frontend.git
-cd Ecommerce-Frontend
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   cd <repo-name>
 
 
 Install dependencies:
@@ -111,3 +115,4 @@ Please fork the repository and create a pull request for any feature or bug fix.
 📄 License
 
 This project is licensed under the MIT License.
+
