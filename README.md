@@ -88,7 +88,7 @@ Product listing and details
 
 Cart and order management
 
-Update the API base URL in the configuration (if applicable).
+Note: Update the API base URL in the configuration (if applicable).
 
 🧪 Testing
 
@@ -115,4 +115,3 @@ Please fork the repository and create a pull request for any feature or bug fix.
 📄 License
 
 This project is licensed under the MIT License.
-
