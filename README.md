@@ -1,52 +1,47 @@
-🛍️ E-commerce Frontend
+# 🛍️ E-commerce Frontend
 
-This repository contains the frontend for a modern, responsive e-commerce web application. It is built using React, Vite, and Tailwind CSS, featuring both customer-facing pages and an admin dashboard.
+This repository contains the **frontend** for a modern, responsive e-commerce web application.  
+It is built using **React**, **Vite**, and **Tailwind CSS**, featuring both customer-facing pages and an admin dashboard.
 
-🚀 Features
+---
 
-Customer Features:
+## 🚀 Features
 
-Browse products by categories (Men, Women, Saree, Kurta, etc.)
+### Customer Features
+- Browse products by categories (Men, Women, Saree, Kurta, etc.)
+- Add products to cart
+- Checkout functionality
+- User authentication (Sign Up, Login)
+- Responsive design optimized for desktop and mobile
 
-Add products to cart
+### Admin Features
+- Dashboard with analytics and KPIs
+- Manage products (Create, View, Update)
+- Manage orders and customers
+- Monthly overview and achievements
 
-Checkout functionality
+### State Management
+- Redux-based architecture (`src/State/`)
+- Separate actions and reducers for:
+  - Authentication
+  - Cart
+  - Orders
+  - Products
 
-User authentication (Sign Up, Login)
+---
 
-Responsive design optimized for desktop and mobile
+## 🛠️ Tech Stack
 
-Admin Features:
+- **Frontend Framework:** React (with JSX)
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS, Custom CSS
+- **State Management:** Redux
+- **Routing:** React Router
+- **Deployment Ready:** Configured for Vercel / Netlify (`vercel.json` included)
 
-Dashboard with analytics and KPIs
+---
 
-Manage products (Create, View, Update)
-
-Manage orders and customers
-
-Monthly overview and achievements
-
-State Management:
-
-Redux-based architecture (State directory)
-
-Actions and reducers for authentication, cart, orders, etc.
-
-🛠️ Tech Stack
-
-Frontend Framework: React (with JSX)
-
-Build Tool: Vite
-
-Styling: Tailwind CSS, Custom CSS
-
-State Management: Redux
-
-Routing: React Router
-
-Deployment Ready: Configured for platforms like Vercel (vercel.json included)
-
-📂 Project Structure
+## 📂 Project Structure
 src/
  ├── Admin/                # Admin dashboard pages and components
  │   └── components/
